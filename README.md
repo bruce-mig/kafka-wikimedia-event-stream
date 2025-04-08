@@ -4,7 +4,7 @@ This repository contains a Spring Boot microservices application that streams ev
 
 ### Technologies Used
 - **Spring Boot**: For building the microservices architecture.
-- **Apache Kafka**: For event streaming and messaging.
+- **Apache Kafka with KRaft consensus protocol**: For event streaming and messaging.
 - **Spring Reactive Web**: For handling non-blocking reactive streams.
 - **WebClient**: For making asynchronous web requests.
 - **Database**: To store the streamed events.
