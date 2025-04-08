@@ -26,11 +26,15 @@ This repository contains a Spring Boot microservices application that streams ev
    In root of the project run: 
     ```bash
    docker compose up -d
-3. ```
-3. **Run the Application**: Use the following command to start the Spring Boot application
+   ```
+3. **Run the Applications**: Use the following command to start the Spring Boot applications
    ```bash
+   cd consumer
+   ./mvnw spring-boot:run
+   cd ../producer
    ./mvnw spring-boot:run
    ```
+4. Initiate event stream by sending a get request to `http:localhost:8080/api/v1/wikimedia`
 
 ### Contributing
 Feel free to contribute to this project by opening issues, submitting pull requests, or suggesting new features.
