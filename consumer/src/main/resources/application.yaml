@@ -8,8 +8,10 @@ spring:
       auto-offset-reset: earliest
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
       properties:
-        spring.json.trusted.packages: '*'
+        spring.json.trusted.packages: com.github.bruce-mig.wikimedia.payload
 
 server:
   port: 8091
