@@ -3,7 +3,6 @@ spring:
     name: consumer
   kafka:
     consumer:
-      bootstrap-servers: localhost:9094
       group-id: wikiGroup
       auto-offset-reset: earliest
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
