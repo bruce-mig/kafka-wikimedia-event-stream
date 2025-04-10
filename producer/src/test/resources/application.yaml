@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: producer
+  kafka:
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+
+topic:
+  name: wikimedia-stream
